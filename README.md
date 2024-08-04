@@ -4,7 +4,7 @@
 
 
 ## fedora_custom_partitioning_while_installation
-First you have to do some changes to the partition labels while installing fedora. While installing, you have to select "custom" in the partitioning section. Then select filesystem as "btrfs". Then create "efi partition" of size 512MB, "swap" of "RAM Size", "var" of 30GB, root(/) - your preferred size(I prefer 30GB - 100GB) and change the label of root from "/" to "@" and make home(/home) partition too and change the label from "/home" to "@home".
+First you have to do some changes to the partition labels while installing fedora. While installing, you have to select "custom" in the partitioning section. Then select filesystem as "btrfs". Then create "efi partition" of size 512MB, "swap" of "RAM Size", "var" of 30GB, root(/) - your preferred size(I prefer 30GB - 100GB) and change the name of root from "/" to "@" and make home(/home) partition too and change the name from "/home" to "@home".
 ## dnf_configuration
 After finishing your installation you have to change the dnf configuration in order to get better download speeds while updating the system.
 
