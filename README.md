@@ -84,6 +84,8 @@ To make it start at boot and show submenu for snapshots, execute the below comma
 
     sudo systemctl enable grub-btrfsd
 Reboot the system and the changes will take effect. Create another snapshot and poweroff the system. Then poweron the system and see if all the created snapshots are shown in the snapshots submenu in the grub menu. If everything works enjoy.
-If your system got grub error force poweroff the system and poweron again and in the grub menu go to snapshots submenu and select the first created snapshot and boot into it. Then open timeshift and restore to the first created snapshot.
+
+
+If your system got grub error, force poweroff the system and poweron again and in the grub menu go to snapshots submenu and select the first created snapshot and boot into it. Then open timeshift and restore to the first created snapshot and reboot the system.
 
 
